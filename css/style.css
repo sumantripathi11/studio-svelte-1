@@ -29,7 +29,7 @@ body{
     font-family: 'Monoton', cursive;
     letter-spacing: 5px;
     font-size: 2rem;
-    color: black;
+    color: #45b490;
 }
 
 .heading:before{
@@ -322,24 +322,38 @@ body{
 }
 
 .footer .icons {
-   /* margin: 5px;*/
+ /*  margin: 5px;*/
+
+}
+
+.heads-w{
+    color: white !important;
+}
+
+.heads-b{
+    color: black !important;
+}
+
+.footer
+{
+    /*margin-bottom: 30px;*/
 }
 
 .footer .icons .s-icon {
     margin: auto 15px;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .footer .copyright , .copyright a, .address {
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .copy {
-	background: darksalmon;
-    padding: 1rem;
+	background: currentColor;
+    padding: 0.7rem;
 }
 
 /*product listing*/
@@ -1352,3 +1366,8 @@ a.btn-card {
     background: whitesmoke;
     background-image: url('assets/IMAGE1/phone-icon.png');
 }*/
+
+.p-t-b{
+    padding-bottom: 5rem !important;
+    padding-top: 5rem !important; 
+}
