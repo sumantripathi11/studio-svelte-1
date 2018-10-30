@@ -141,6 +141,7 @@ body{
     z-index: 2;
     letter-spacing: 5px;
     font-size: 2rem;
+    color: #45b490;
 }
 
 .nb-heading:before{
@@ -255,7 +256,7 @@ body{
 
 
 .simg-1{
-    background-image: url(../assets/banner1.png);
+    background-image: url(../assets/IMAGE1/L5.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -283,28 +284,28 @@ body{
 }
 
 .simg-5{
-    background-image: url(../assets/i9.jpg);
+    background-image: url(../assets/k1.png);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 .simg-6{
-    background-image: url(../assets/i10.jpg);
+    background-image: url(../assets/IMAGE1/i9.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 .simg-7{
-    background-image: url(../assets/banner2.jpg);
+    background-image: url(../assets/IMAGE1/L21.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 .simg-8{
-    background-image: url(../assets/i11.jpg);
+    background-image: url(../assets/IMAGE1/i11.jpeg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -321,7 +322,7 @@ body{
 }
 
 .footer .icons {
-    margin: 5px;
+   /* margin: 5px;*/
 }
 
 .footer .icons .s-icon {
@@ -333,6 +334,12 @@ body{
 .footer .copyright , .copyright a, .address {
     color: white;
     font-size: 1rem;
+
+}
+
+.copy {
+	background: darksalmon;
+    padding: 1rem;
 }
 
 /*product listing*/
@@ -1107,21 +1114,9 @@ a.btn-card {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*******Dumped Code********/
+
+
 
 .navbar{
     display: flex;
@@ -1235,13 +1230,13 @@ a.btn-card {
 }
 
 .our-mission{
-    background-image: url(../assetsIMAGE1/L17.jpg);
+    background-image: url(../assets/IMAGE1/L17.jpg);
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5rem 0rem;
+    padding: 2rem 0rem;
 }
 
 .section2-about-text{
@@ -1341,3 +1336,19 @@ a.btn-card {
     font-weight: 700;
     text-align: center;
 }
+
+.nav-item a {
+    font-family: 'Lato', sans-serif !important;
+    line-height: 24px !important;
+    letter-spacing: 1px !important;
+    text-transform: capitalize !important;
+}
+
+/*.phoneno {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #a42723;
+    font-size: 1.5rem;
+    background: whitesmoke;
+    background-image: url('assets/IMAGE1/phone-icon.png');
+}*/
