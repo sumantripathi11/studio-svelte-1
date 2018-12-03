@@ -1,9 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Unlock');
+
+
 :root{
     font-size: 16px;
 }
 
 .navbar{
-    padding: 0.3rem !important;
+    padding-left: 2.3rem !important;
+    padding-right: 2.3rem !important;
 }
 
 body{
@@ -26,7 +32,7 @@ body{
 
 .heading{
     text-align: center;
-    font-family: 'Monoton', cursive;
+    font-family: 'Open Sans',sans-serif;
     letter-spacing: 5px;
     font-size: 2rem;
     color: #45b490;
@@ -123,21 +129,28 @@ body{
 
 .nav-link{
     color: white !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     text-transform: uppercase !important;
+    font-size: 23px !important;
+}
+.nav-item .active.nav-link a: hover
+{
+    text-decoration: underline !important;
+    font-size: 24px;
+    
 }
 
 .nb-about{
     position: relative;
 }
 
-.nb-heading{
+.nb-heading ,heads-a ,heads-b ,heads-w ,heads-f{
     position: absolute;
     top: 18px;
     text-align: center;
     font-family: 'Monoton', cursive;
     float: left;
-    width: 100%;
+    width: 73%;
     z-index: 2;
     letter-spacing: 5px;
     font-size: 2rem;
@@ -327,11 +340,38 @@ body{
 }
 
 .heads-w{
-    color: white !important;
+    color: black !important;
+    margin-left: 187px !important;
+    font-family: 'Unlock', cursive;
+
 }
 
 .heads-b{
     color: black !important;
+    padding-left: 350px !important;
+    font-family: 'Unlock', cursive;
+
+}
+.heads-f
+{
+    padding-left:15px !important;
+    color: black;
+    font-family: 'Unlock', cursive;
+
+}
+.heads-a
+{
+    margin-left: -54px !important;
+    color: #fff;
+    font-family: 'Unlock', cursive;
+
+}
+.heads-s
+{
+    margin-left: -54px !important;
+    color:black;
+    font-family: 'Unlock', cursive;
+
 }
 
 .footer
@@ -465,6 +505,8 @@ body{
 
 .details-card {
     /*background: #ecf0f1;*/
+
+    padding-bottom: -250px !important;
 }
 
 .card-content {
@@ -1204,14 +1246,41 @@ a.btn-card {
 
 }
 
-.img-about-page-1{
-    background-image: url(../assets/living-room-couch-interior-room-584399.jpeg);
+.img-about-page-1
+{
+    background-image: url(../assets/i1.jpg);
+
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 7rem;   
+    background-size:1500px 800px;
+    padding: 10rem;  
+    margin-bottom:  120px; 
+    margin: 1px !important;
+}
+
+.weI h3 
+{
+    font-size: 49px!important;
+/*    color: black!important;
+*/    text-align: center!important;
+    margin-left: 280px !important;
+    /*padding-right: 45px;*/
+    letter-spacing: 5px;
+    color:#fff;
+   font-family: 'Lora', serif;
+padding-top: 10px;
+border: 1px solid red;
+background: #fa2e05;
+border-size:border-box;
+width: 395px;
+margin-left: 350px;
+margin-top: -90px !important;
+
+
+
+   
 }
 .section1-about-text{
 
@@ -1236,11 +1305,7 @@ a.btn-card {
     background-color: rgb(255,255,255,0.7);
 }
 .section1-logo-image{
-        padding: 10px;
-    border: 1px solid white;
-    border-radius: 50%;
-    height: 284px;
-    background-color: rgb(255,255,255,0.2);
+        width: 30vw;
 }
 
 .our-mission{
@@ -1250,7 +1315,8 @@ a.btn-card {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 2rem 0rem;
+    padding: 1.5rem 15rem;
+     
 }
 
 .section2-about-text{
@@ -1352,7 +1418,7 @@ a.btn-card {
 }
 
 .nav-item a {
-    font-family: 'Lato', sans-serif !important;
+font-family: 'Open Sans',sans-serif !important;
     line-height: 24px !important;
     letter-spacing: 1px !important;
     text-transform: capitalize !important;
@@ -1370,4 +1436,45 @@ a.btn-card {
 .p-t-b{
     padding-bottom: 5rem !important;
     padding-top: 5rem !important; 
+}
+
+.p-t-b .fa:hover
+{
+    font-size: 30px;
+
+}
+
+body {
+  background-color: #fff;
+}
+.trns-text {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/990140/download.png)   -20px -20px no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* Below is not needed */
+  display:block;
+  font-size: 100px;
+  font-family: arial;
+  text-align: center;
+  margin-top: -20px;
+  font-weight: bold;
+  letter-spacing: -25px;
+  background-size: cover;
+}
+.non-trns {
+  color: #000;
+  margin-top: -200px;
+  text-align: center;
+  font-family: calibri;
+  font-size: 25px;
+}
+
+
+#map { 
+        height: 400px !important; 
+        width: 100% !important; 
+       }
+.container
+{
+    width: 100% !important;
 }
